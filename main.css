@@ -1,0 +1,122 @@
+
+/* General */
+.nav a {
+  color:dodgerblue;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline;
+}
+
+
+.jumbotron {
+  background-image:url('./src/images/wallhaven-181483.jpg');
+
+ 
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+
+.neighborhood-guides{
+    background-color: #efefef
+    border-bottom: (1px, solid, #dbdbdb);
+}
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size: 24px;
+    
+}
+
+.neighborhood-guides{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+
+#posts.col-md-4 {
+  font-family: 'Roboto', sans-serif;
+  color:darkcyan;
+  background-color:antiquewhite;
+}
+
+#posts.container {
+  width: 520px;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color:beige;
+  border: 1px solid darkred;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+.nav{
+ position: fixed;    z-index: 10;
+    background: rgba(255,255,255,.95);
+    color: floralwhite;
+    font-weight: 700;
+    width:100%;
+
+}
+
+ 

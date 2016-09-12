@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+nav#nav1{margin-top: 24px;}
+nav#nav1 > a{
+	background:#B9E1FF;
+	color:#000;
+	padding:10px;
+	text-decoration:none;
+	border-radius:5px;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+nav#nav1 > a:hover{ background: #BBEA00; }
+nav#nav1 > a:active{ background: #EEFFA8; }
+</style>
+<script>
+var bleepE = new Audio();
+bleepE.src = "sound3/1st_String_E.mp3";
+
+var bleepB = new Audio();
+bleepB.src = "sound3/2nd_String_B.mp3";
+
+var bleepG = new Audio();
+bleepG.src = "sound3/3rd_String_G.mp3";
+
+var bleepD = new Audio();
+bleepD.src = "sound3/4th_String_D.mp3";
+
+var bleepA = new Audio();
+bleepA.src = "sound3/5th_String_A.mp3";
+
+var bleepe = new Audio();
+bleepe.src = "sound3/6th_String_D.mp3";
+</script>
+    <meta charset="utf-8">
+  
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                </button>
+            
+            </div><!--end of navbar header-->
+            
+            <div class="collapse navbar-collapse" id="example">
+                <ul class="nav navbar-nav">
+					<li><a href="../index.html">Back to Home</a></li>
+                     <li><a href="standart.html">Standart</a></li>
+                     <li><a href="open_c.html">Open C</a></li>
+                     <li><a href="drop_d.html">Drop D</a></li>
+                </ul>
+            </div><!--navbar navidation end-->
+        </div><!-- end of container-->
+    </div><!--end of navbar-->    
+    
+   <div id="ddd" class="container">
+        <div class="row">
+			<nav id="nav1">
+				<a href="#" onmousedown="bleepE.play()"><strong>E</strong></a>
+				<a  href="#" onmousedown="bleepB.play()"><strong>B</strong></a>
+				<a  href="#" onmousedown="bleepG.play()"><strong>G</strong></a>
+				<a  href="#" onmousedown="bleepD.play()"><strong>D</strong></a>
+				<a  href="#" onmousedown="bleepA.play()"><strong>A</strong></a>
+				<a  href="#" onmousedown="bleepe.play()"><strong>D</strong></a>
+			</nav>
+       </div> 
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+    
+</html>

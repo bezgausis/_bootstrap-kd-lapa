@@ -1,0 +1,30 @@
+*
+{
+    font-family: roboto, sans-serif;
+}
+#text
+{
+    font-size: 15px;
+}
+#title
+{
+    color: greenyellow;
+}
+#ddd
+{
+    margin-top: 10%;
+    width: 60%;
+    height: 200px;
+}
+.btn-primary
+{
+    width: 30px;
+    height: 20px;
+    padding: 10px 40px 10px 40px;
+    font-family: roboto, sans-serif;
+    font-size: 24px
+}
+#fff
+{
+    margin-left: 100px;
+}
